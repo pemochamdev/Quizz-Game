@@ -29,6 +29,27 @@ public class Quizz implements ActionListener{
 	int result;
 	int seconds = 10;
 	
+	JFrame frame = new JFrame();
+	
+	JTextField textfield = new JTextField();
+	JTextField numbers_rigth = new JTextField();
+	JTextField percentage = new JTextField();
+	
+	JTextArea textarea = new JTextArea();
+	
+	JButton btnA  = new JButton();
+	JButton btnB  = new JButton();
+	JButton btnC  = new JButton();
+	JButton btnD  = new JButton();
+	
+	JLabel answer_labelA = new JLabel();
+	JLabel answer_labelB = new JLabel();
+	JLabel answer_labelC = new JLabel();
+	JLabel answer_labelD = new JLabel();
+	JLabel timbe_label = new JLabel();
+	JLabel second_left = new JLabel();
+	
+	
 	public  Quizz() {
 		
 	}
